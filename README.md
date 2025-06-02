@@ -2,7 +2,7 @@
 
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/satwareAG/satware.ai/deploy-live.yml?branch=main-mkdocs&label=Build%20Status)](https://github.com/satwareAG/satware.ai/actions/workflows/deploy-live.yml)
 [![MkDocs Material](https://img.shields.io/badge/docs-MkDocs%20Material-blue.svg)](https://squidfunk.github.io/mkdocs-material/)
-[![License](https://img.shields.io/github/license/satwareAG-ironMike/satware.ai)](LICENSE)
+[![License](https://img.shields.io/github/license/satwareAG/satware.ai)](LICENSE)
 
 A modern, responsive documentation website for satware.ai, built with [MkDocs](https://www.mkdocs.org/) and the beautiful [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme. This repository serves as the source for the static website deployed to GitHub Pages.
 
