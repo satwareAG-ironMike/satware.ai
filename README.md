@@ -1,6 +1,6 @@
 # satware.ai Website
 
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/satwareAG-ironMike/satware.ai/ci.yml?branch=main-mkdocs&label=Build%20Status)](https://github.com/satwareAG-ironMike/satware.ai/actions/workflows/ci.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/satwareAG-ironMike/satware.ai/deploy-live.yml?branch=main-mkdocs&label=Build%20Status)](https://github.com/satwareAG-ironMike/satware.ai/actions/workflows/deploy-live.yml)
 [![MkDocs Material](https://img.shields.io/badge/docs-MkDocs%20Material-blue.svg)](https://squidfunk.github.io/mkdocs-material/)
 [![License](https://img.shields.io/github/license/satwareAG-ironMike/satware.ai)](LICENSE)
 
