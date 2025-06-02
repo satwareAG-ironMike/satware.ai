@@ -43,13 +43,23 @@ Developing locally is streamlined using Docker, which encapsulates all necessary
 
 ```
 .
+├── .github/              # GitHub Actions workflows for CI/CD
+│   └── workflows/        # Contains deploy-live.yml and deploy-preview.yml
+├── .gitignore            # Specifies intentionally untracked files to ignore
+├── .repoinsight/          # Configuration for repository insights (if applicable)
+├── docker/               # Docker-related files
+│   └── mkdocs-material/  # Dockerfile for the MkDocs Material environment
 ├── docs/                 # Markdown source files for the documentation
 │   ├── index.md          # Homepage content
-│   └── ...               # Other documentation pages
-├── mkdocs.yml            # Main MkDocs configuration file
+│   └── ...               # Other documentation pages and assets
 ├── mkdocs.sh             # Script for local development with Docker
-├── .github/workflows/    # GitHub Actions workflows for CI/CD
-│   └── ci.yml            # Workflow for building and deploying to GitHub Pages
+├── mkdocs.yml            # Main MkDocs configuration file
+├── overrides/            # Custom theme overrides and assets (e.g., SCSS)
+│   └── assets/
+│       └── css/
+│           └── custom.scss
+├── scss_watcher.py       # Python script to watch and compile SCSS
+├── tasks.md              # Markdown file for project tasks/notes
 └── README.md             # This file
 ```
 
