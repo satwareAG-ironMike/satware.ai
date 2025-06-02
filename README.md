@@ -25,13 +25,15 @@ Developing locally is streamlined using Docker, which encapsulates all necessary
 
 **Steps:**
 
-1.  **Clone the repository:**
+1.  **Fork the original repository**: Fork the `satwareAG/satware.ai` repository to your GitHub account.
+2.  **Clone your fork**:
     ```bash
-    git clone https://github.com/satwareAG-ironMike/satware.ai.git
+    git clone https://github.com/YOUR_USERNAME/satware.ai.git
     cd satware.ai
     ```
+    (Replace `YOUR_USERNAME` with your GitHub username.)
 
-2.  **Start the development server:**
+3.  **Start the development server**:
     ```bash
     ./mkdocs.sh
     ```
@@ -65,12 +67,17 @@ Developing locally is streamlined using Docker, which encapsulates all necessary
 
 The `satware.ai` website is automatically deployed to GitHub Pages.
 
-**Workflow:**
+**Workflow for your fork (for testing/preview):**
 
-1.  **Push to your fork**: When you push changes to your fork (`https://github.com/satwareAG-ironMike/satware.ai`), specifically to the `main-mkdocs` branch.
-2.  **GitHub Actions Trigger**: A GitHub Actions workflow (`ci.yml`) is triggered.
-3.  **Build & Deploy**: This workflow builds the static website using MkDocs and deploys it to the `gh-pages` branch of your repository.
-4.  **Live Website**: The static website becomes available at `https://satwareag-ironMike.github.io/satware.ai/`.
+1.  **Push to your fork**: When you push changes to your fork (`https://github.com/YOUR_USERNAME/satware.ai`), specifically to the `main-mkdocs` branch.
+2.  **GitHub Pages Setup**: Ensure GitHub Pages is enabled for your fork, building from the `gh-pages` branch.
+3.  **GitHub Actions Trigger**: A GitHub Actions workflow (`ci.yml`) is triggered.
+4.  **Build & Deploy**: This workflow builds the static website using MkDocs and deploys it to the `gh-pages` branch of your fork.
+5.  **Live Website**: The static website becomes available at `https://YOUR_USERNAME.github.io/satware.ai/`.
+
+**Workflow for the main repository (live site):**
+
+*   Changes merged into the `main-mkdocs` branch of the *original* `satwareAG/satware.ai` repository will trigger the live site deployment to `https://satware.ai/`.
 
 ## ❓ Troubleshooting
 
